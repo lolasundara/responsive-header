@@ -34,6 +34,10 @@ header h1 {
   padding-top: .25em;
 }
 
+nav a {
+  white-space: nowrap;
+}
+
 a:link {
   color: #6c8fe0;
   text-decoration: none;
