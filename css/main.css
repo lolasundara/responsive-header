@@ -110,12 +110,29 @@ li {
 
   header h1 {
     display: inline-block;
-    text-align: left;
+    float: left;
     margin-left: .25em;
+    padding-bottom: .25em;
+    width: 25%;
+  }
+
+  nav ul {
+    margin: 0;
   }
 
   li {
     width: 18%;
-    text-align: right;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  nav a {
+    color: #6c8fe0;
   }
 }
